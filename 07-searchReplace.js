@@ -2,15 +2,11 @@
 Note
 Preserve the case of the first character in the original word when you are replacing it. For example if you mean to replace the word "Book" with the word "dog", it should be replaced as "Dog" */
 function myReplace (str, before, after) {
-  let testStr
-  const letterUpperCase = after.charAt(0).toUpperCase() + after.slice(1)
-  const letterLowerCase = after.charAt(0).toLowerCase() + after.slice(1)
-  if (before[0] === after[0]) {
-    testStr = str.replace(before, after)
-  } else if (before[0].toUpperCase() !== after[0]) {
-    testStr = str.replace(before, letterUpperCase)
-  } else if (before[0].toLowerCase() !== after[0]) {
-    testStr = str.replace(before, letterLowerCase)
+  if (before[0] === before[0].toUpperCase()) {
+    after = after.charAt(0).toUpperCase() + after.slice(1)
   }
-  console.log(testStr)
+  str = str.replace(before, after)
+  return str
 }
+myReplace('A quick brown fox jumped over the lazy dog', 'jumped', 'leaped')
+myReplace('He is Sleeping on the couch', 'Sleeping', 'sitting')
