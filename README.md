@@ -43,8 +43,9 @@ Preserve the case of the first character in the original word when you are repla
 
 14. *Smallest Common Multiple* Find the smallest common multiple of the provided parameters that can be evenly divided by both, as well as by all sequential numbers in the range between these parameters. The range will be an array of two numbers that will not necessarily be in numerical order. For example, if given 1 and 3, find the smallest common multiple of both 1 and 3 that is also evenly divisible by all numbers between 1 and 3. The answer here would be 6.
 
-15. *Palindrome Checker* Return true if the given string is a palindrome. Otherwise, return false.A palindrome is a word or sentence that's spelled the same way both forward and backward, ignoring punctuation, case, and spacing. Note
-You'll need to remove all non-alphanumeric characters (punctuation, spaces and symbols) and turn everything into the same case (lower or upper case) in order to check for palindromes. We'll pass strings with varying formats, such as "racecar", "RaceCar", and "race CAR" among others. We'll also pass strings with special symbols, such as "2A3*\3a2", "2A3 3a2", and "2_A3*\3#A2".
+15. *Drop it* Given the array arr, iterate through and remove each element starting from the first element (the 0 index) until the function func returns true when the iterated element is passed through it. Then return the rest of the array once the condition is satisfied, otherwise, arr should be returned as an empty array.
+
+16. *Steamroller* Flatten a nested array. You must account for varying levels of nesting.
 
 
 
