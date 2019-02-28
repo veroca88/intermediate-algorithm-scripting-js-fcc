@@ -49,6 +49,12 @@ Preserve the case of the first character in the original word when you are repla
 
 17. *Steamroller* Flatten a nested array. You must account for varying levels of nesting.
 
+18. *BinaryTranslation* Return an English translated sentence of the passed binary string.
+
+19. *Everything Be True* Check if the predicate (second argument) is truthy on all elements of a collection (first argument). In other words, you are given an array collection of objects. The predicate pre will be an object property and you need to return true if its value is truthy. Otherwise, return false.
+In JavaScript, truthy values are values that translate to true when evaluated in a Boolean context.
+
+
 
 
 
