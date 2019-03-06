@@ -54,6 +54,11 @@ Preserve the case of the first character in the original word when you are repla
 19. *Everything Be True* Check if the predicate (second argument) is truthy on all elements of a collection (first argument). In other words, you are given an array collection of objects. The predicate pre will be an object property and you need to return true if its value is truthy. Otherwise, return false.
 In JavaScript, truthy values are values that translate to true when evaluated in a Boolean context.
 
+**JavaScript Algorithms and Data Structures Projects**
+
+20. *Palindrome Checker* Return true if the given string is a palindrome. Otherwise, return false.
+A palindrome is a word or sentence that's spelled the same way both forward and backward, ignoring punctuation, case, and spacing.
+
 
 
 
